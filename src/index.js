@@ -10,4 +10,5 @@ import ReactDOM from 'react-dom'
 const element = <h1>Hello React</h1>
 const container = document.getElementById('root')
 
+container.appendChild(element)
 ReactDOM.render(element,container)
