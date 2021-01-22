@@ -7,10 +7,8 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Card from './components/card'
-import Exercises from './pages/exercises'
 import 'bootstrap/dist/css/bootstrap.css'
-import Welcome from './components/welcome'
+import App from './components/app'
 
 // const user = {
 //     firstName: 'Bryana',
@@ -52,7 +50,7 @@ const container = document.getElementById('root')
 
 //el DOM funciona de la siguiente manera:
 //ReactDOM.render(__QUÉ__ , __DÓNDE__)
-ReactDOM.render(<Exercises/>, container)
+ReactDOM.render(<App />, container)
 
 /*al momento de importar y colocar un componente,
 se le debe escribir dentro de </>*/

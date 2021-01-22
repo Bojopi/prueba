@@ -1,6 +1,5 @@
 //primero se importa la librería de React
 import React from "react";
-import excercise1 from "../images/exercise.png";
 import "../components/styles/card.css";
 import circlesImg from "../images/circles.png"
 import "./styles/card.css"
