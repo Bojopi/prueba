@@ -40,6 +40,7 @@ class ExerciseNew extends React.Component {
         <div className="col-sm">
           <ExerciseForm onChange={this.handleChange} form={this.state.form} />
         </div>
+        <div></div>
       </div>
     )
   }
